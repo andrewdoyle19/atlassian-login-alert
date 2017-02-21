@@ -4,7 +4,7 @@ How annoying is it when you post stuff as Anonymous in JIRA, simply because you 
 
 Install this extension and get an awesome notification! (complete with flashing lights)
 
-![alt]('/img/alert-example.png')
+![alt]('https://github.com/lurch83/atlassian-login-alert/blob/master/src/img/alert-example.png')
 
 ## Installation
 
