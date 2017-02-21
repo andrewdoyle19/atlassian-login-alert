@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "atlassian-login-alert",
+  "description": "Please tell me when Atlassian drops my login",
+  "version": "0.1",
+  
+  "content_scripts": [
+    {
+      "matches": ["http://your/jira/url/*"],
+	  "css": ["mycss.css"],
+      "js": ["myscript.js"]
+    }
+  ],
+  "web_accessible_resources": ["/img/flashing-light.gif"],
+  "permissions": [ 
+  	"tabs", "http://your/jira/url/*"
+  ]
+}
