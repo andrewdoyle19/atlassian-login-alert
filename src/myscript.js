@@ -7,7 +7,6 @@ if(!login || login.length === 0) {
 	login = document.getElementById("login-link");
 }
 if(login){
-	
 	//var dashboard = document.getElementsByClassName('aui-page-header');
 	var header = document.getElementsByTagName('header');
 	if(header){

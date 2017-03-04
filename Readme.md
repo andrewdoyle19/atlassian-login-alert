@@ -6,10 +6,9 @@ Install this extension and get an awesome notification! (complete with flashing 
 
 ![Notification](/src/img/alert-example.png?raw=true "Optional Title")
 
-## Installation
+## Developer Mode Installation
+Navigate to `chrome://extensions` and check the developer mode box
 
-1. Update the `src/manifest.json` file to add the path to your JIRA server
-
-2. Load as an unpacked extension in Chrome
+Load as an unpacked extension in Chrome
 `chrome://extensions`
 
