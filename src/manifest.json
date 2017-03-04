@@ -3,17 +3,22 @@
 
   "name": "atlassian-login-alert",
   "description": "Please tell me when Atlassian drops my login",
-  "version": "0.1",
-  
+  "version": "0.2",
+  "icons":{
+    "128":"img/logo.png",
+    "64":"img/logo64.png",
+    "32":"img/logo32.png",
+    "16":"img/logo16.png"
+  },
   "content_scripts": [
     {
-      "matches": ["http://your/jira/url/*"],
-	  "css": ["mycss.css"],
+      "matches":["http://*/*","https://*/*"],
+	    "css": ["mycss.css"],
       "js": ["myscript.js"]
     }
   ],
   "web_accessible_resources": ["/img/flashing-light.gif"],
   "permissions": [ 
-  	"tabs", "http://your/jira/url/*"
+  	"tabs"
   ]
 }
